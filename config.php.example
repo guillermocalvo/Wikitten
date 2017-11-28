@@ -8,6 +8,11 @@ define('APP_NAME', 'My Wiki');
 // Set the filename of the automatic homepage here
 define('DEFAULT_FILE', 'index.md');
 
+// Set the link for the Wikitten logo (on the left bottom)
+define('WIKITTEN_LOGO_LINK', 'http://wikitten.vizuina.com');
+// Set the message on mouseover
+define('WIKITTEN_LOGO_MESSAGE', 'Remember to check for updates!');
+
 // Custom path to your wiki's library:
 // define('LIBRARY', '/path/to/wiki/library');
 

@@ -49,9 +49,9 @@ function e($dirty) {
 <body>
     <div id="main">
         <?php if(USE_WIKITTEN_LOGO === true): ?>
-            <a href="http://wikitten.vizuina.com" id="logo" target="_blank" class="hidden-phone">
+            <a href="<?php echo WIKITTEN_LOGO_LINK ?>" id="logo" target="_blank" class="hidden-phone">
                 <img src="static/img/logo.png" alt="">
-                <div class="bubble">Remember to check for updates!</div>
+                <div class="bubble"><?php echo e(WIKITTEN_LOGO_MESSAGE) ?></div>
             </a>
         <?php endif; ?>
         <div class="inner">
